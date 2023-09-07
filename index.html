@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="todo1-container">
+            <div class="todo-head">
+                <h1>Todo Daily Tasks</h1>
+                    <div class="todoImg" id="todo-img">
+                <img src="./todo.png" alt="img" width="70%">
+            </div>
+            </div>
+
+        
+
+            <div class="todoContainer" id="todo-container">
+            <!-- <div class="todoBox">
+                <input type="checkbox">
+                <div class="todoContent">
+                    <p class="title">My first Task</p>
+                    <p class="desc">description</p>
+                    <p class="dueDate" >Time and date</p>
+                </div>
+            </div> -->
+        </div>
+    
+
+        </div>
+
+        <div class="todo2-container">
+            <input type="text" id="title-input" class="titleInput" placeholder="Enter your  first task"><br>
+            <input type="text" id="desc-input" class="descInput" placeholder="description">
+            <div class="todo-end">
+            <input type="text" id="dueDate" class="dueDate" onblur="((this.type='text'))" onfocus="((this.type='datetime-local'))"placeholder="Due">
+            <button id="todoBtn">Task</button>
+        </div>
+    </div>
+
+</div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
