@@ -76,6 +76,7 @@ function sortOrder() {
     
  data.sort((a,b)=>{
         let A = new Date (a.dueDate)
+        let B = new Date (b.dueDate)
 
         if (A < B) {
             return -1
